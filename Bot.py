@@ -21,4 +21,4 @@ async def heh(ctx, count_heh = 5):
 async def add(ctx, left: int, right: int):
     """Adds two numbers together."""
     await ctx.send(left + right)
-bot.run("")
+bot.run("TOKEN")
